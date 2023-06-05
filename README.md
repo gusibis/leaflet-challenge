@@ -18,6 +18,7 @@ The instructions for this activity are broken into two parts:<br>
            Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.<br>
         b. The depth of the earth is found in response.geometry.coordinates[2]<br>
     - Include popups that provide additional information about the earthquake when its associated marker is clicked.<br>
-    - Create a legend that will provide context for your map data. I used https://codepen.io/haakseth/pen/KQbjdO as a reference to create the legend. 
-    
+    - Create a legend that will provide context for your map data. I used https://codepen.io/haakseth/pen/KQbjdO as a reference to create the legend. <br><br>
+The site hosted by Github can be found here<br>
+https://gusibis.github.io/leaflet-challenge/
 
