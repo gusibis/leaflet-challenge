@@ -14,9 +14,9 @@ The instructions for this activity are broken into two parts:<br>
     - When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization.<br><br>
     2. Import and visualize the data by doing the following:<br>
     - Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.<br>
-        . Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.<br>
-        Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.<br>
-        . The depth of the earth is found in response.geometry.coordinates[2]<br>
+        a. Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
+           Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.<br>
+        b. The depth of the earth is found in response.geometry.coordinates[2]<br>
     - Include popups that provide additional information about the earthquake when its associated marker is clicked.<br>
     - Create a legend that will provide context for your map data. I used https://codepen.io/haakseth/pen/KQbjdO as a reference to create the legend. 
     
